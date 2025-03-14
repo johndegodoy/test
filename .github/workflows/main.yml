@@ -13,6 +13,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
+        
+    - name: Debug - List Files in the Directory
+      run: ls -R 
 
     - name: Install Dependicies
       run: |
